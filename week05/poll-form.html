@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>This is a header</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form-item column2">
+                <label for="fullname">Your full name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-item column2">
+                <label for="useremail">Your e-mail:</label>
+                <input type="text" id="useremail" name="useremail" required>
+            </div>
+
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="edge">Edge</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="chrome">Chrome</option>
+                </select>
+            </div>
+
+            <div class="column1">
+                <label>Do you have a household pet?<input type="checkbox" id="pet" name="pet"></label>
+            </div>
+
+            <div>
+                <label>List the places you have lived.<textarea placeholder="Paris, Colombia, ..." id="feedback" name="feedback" rows="4"></textarea></label>
+            </div>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+</body>
+</html>
